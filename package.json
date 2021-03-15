@@ -1,0 +1,31 @@
+{
+  "name": "simple-htm-preact",
+  "version": "0.0.1",
+  "description": "Simple and small frontend app built with htm and Preact",
+  "scripts": {
+    "watch": "gulp -f ./build.js watch",
+    "build": "gulp -f ./build.js",
+    "serve": "serve public",
+    "dev": "concurrently npm:watch npm:serve",
+    "lint": "eslint --fix src/*.js src/**/*.js"
+  },
+  "author": "kutacoder",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^0.18",
+    "htm": "^3.0.4",
+    "preact": "^10.4.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.1.0",
+    "concurrently": "^6.0.0",
+    "eslint": "^7.3.1",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.2.2",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "serve": "^11.3.2",
+    "webpack-stream": "^6.1.2"
+  }
+}
