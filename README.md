@@ -1,4 +1,4 @@
-# Simple Frontend Example
+# Simple Frontend Template
 
 An example of a small and simple frontend app:
 
