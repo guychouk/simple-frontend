@@ -9,7 +9,7 @@
     "dev": "concurrently npm:watch npm:serve",
     "lint": "eslint --fix src/*.js src/**/*.js"
   },
-  "author": "kutacoder",
+  "author": "guychouk",
   "license": "GPL-3.0",
   "dependencies": {
     "axios": "^0.18",
